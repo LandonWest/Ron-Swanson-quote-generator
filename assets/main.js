@@ -9,7 +9,7 @@ function getQuote() {
 
 function tweet() {
   $('#tweet-btn').on('click', function() {
-    var url = "https://twitter.com/intent/tweet?&text=\"" + quote + "\" R. Swanson&hashtags=ParksandRec&url=https://bit.ly/rswansqt";
+    var url = "https://twitter.com/intent/tweet?&text=\"" + quote + "\" R. Swanson&hashtags=ParksandRec&url=https://bit.ly/rswanqt";
     $(this).attr('href', url);
   });
 }
@@ -19,7 +19,7 @@ function fbShare() {
     FB.ui({
         method: 'share',
         display: 'popup',
-        href: 'https://landonwest.github.io/Ron-Swanson-quote-generator',
+        href: 'http://ronswansonquotes.xyz',
         quote: '"' + quote + '"'
       }, function(response){
           console.log(response);
