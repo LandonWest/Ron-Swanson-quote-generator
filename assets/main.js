@@ -22,24 +22,9 @@ function fbShare() {
         href: 'https://landonwest.github.io/Ron-Swanson-quote-generator',
         quote: '"' + quote + '"'
       }, function(response){
-        if (response && !response.error_message) {
           console.log(response);
-        } else {
-          console.log(error_message);
         }
       });
-
-      // FB.ui({
-      //   method: 'share_open_graph',
-      //   action_type: 'og.likes',
-      //   action_properties: JSON.stringify({
-      //     object:'https://landonwest.github.io/Ron-Swanson-quote-generator',
-      //   })
-      // }, function(response){
-      //   // Debug response (optional)
-      //   console.log(response);
-      // });
-
   });
 }
 
