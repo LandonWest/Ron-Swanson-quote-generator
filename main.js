@@ -11,7 +11,6 @@ function tweet() {
   $('#tweet-btn').on('click', function() {
     var url = "https://twitter.com/intent/tweet?&text=\"" + quote + "\" R. Swanson&hashtags=ParksandRec&url=http://bit.ly/rswansqt";
     $(this).attr('href', url);
-    window.open(url);
   });
 }
 
