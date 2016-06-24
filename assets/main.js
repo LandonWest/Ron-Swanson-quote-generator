@@ -20,7 +20,7 @@ function fbShare() {
         method: 'share',
         display: 'popup',
         href: 'http://ronswansonquotes.xyz',
-        quote: '"' + quote + '"'
+        quote: '"' + quote + '"' + " -Ron Swanson"
       }, function(response){
           console.log(response);
         }
