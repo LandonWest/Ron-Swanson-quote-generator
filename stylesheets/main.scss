@@ -1,0 +1,144 @@
+$orange: #ff6a29;
+$primary-font: 'Montserrat', sans-serif;
+$headline-font: 'Bungee Shade', cursive;
+$sub-headline-font: 'Bungee', cursive;
+
+// mobile first styles
+body {
+  background-color: $orange;
+  font-family: $primary-font;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+#img-ron {
+  width: 90%;
+  border-bottom: 8px solid black;
+}
+.headline {
+  font: {
+    family: $headline-font;
+    size: 2.25rem;
+  }
+  margin: 0 auto;
+}
+.subheadline {
+  font: {
+    family: $sub-headline-font;
+    size: 1.325rem;
+  }
+  margin: 0.125rem auto 0.5rem;
+}
+#quote {
+  font-family: $primary-font;
+}
+.quote-box {
+  border: 0.325rem solid black;
+  border-radius: 1rem;
+  padding: 0.25rem 1rem;
+  background-color: #fff;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+#quote-btn {
+  width: 40%;
+  margin-top: 1rem;
+  padding: 0.75rem 0.5rem;
+  background-color: black;
+  border: none;
+  border-radius: 0.5rem;
+  color: #fff;
+  font: {
+    family: $primary-font;
+    size: 1rem;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+.social-btn {
+  margin-top: 1rem;
+  color: black;
+  padding: 0.25rem 0.5rem;
+  width: 30%;
+}
+footer {
+  ul {
+    list-style: none;
+    display: inline;
+    li {
+      font-size: 0.65rem;
+
+      a { color: #404040; }
+    }
+  }
+}
+
+
+// begin tablet and larger media query
+@media screen and (min-width: 415px) {
+  #img-ron {
+    min-width: 28.75rem;
+    max-width: 45%;
+  }
+  .headline {
+    font-size: 4rem;
+    margin-bottom: 1.2rem;
+  }
+  .subheadline {
+    font-size: 2rem;
+  }
+  #quote {
+    font-size: 1.5rem;
+  }
+  .quote-box {
+    display: inline-block;
+    border: 0.5rem solid black;
+    padding: 1rem 1.25rem;
+    max-width: 80%;
+    width: 25rem;
+  }
+  #quote-btn {
+    width: 12.5rem;
+    margin-right: 0.75rem;
+    padding: 0.75rem;
+    font-size: 1rem;
+  }
+    #tweet-btn {
+    margin-right: 0.5rem;
+  }
+  .social-btn {
+    i {
+      font-size: 1.25rem;
+      position: relative;
+      top: 0.1rem;
+    }
+  }
+}
+// begin laptop and larger mediaquery
+@media screen and (min-width: 1000px) {
+  body {
+    margin-top: 4rem;
+  }
+  #img-ron {
+    float: left;
+  }
+  .headline {
+    font-size: 5rem;
+  }
+  .subheadline {
+    margin-bottom: 2rem;
+  }
+  .quote-box {
+    margin-bottom: 1rem;
+  }
+  footer {
+    margin-top: 1.75rem;
+
+    ul {
+      li { font-size: 0.75rem;}
+    }
+  }
+}
