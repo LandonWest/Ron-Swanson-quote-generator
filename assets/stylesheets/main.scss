@@ -1,4 +1,5 @@
 $orange: #ff6a29;
+$gray: #404040;
 $primary-font: 'Montserrat', sans-serif;
 $headline-font: 'Bungee Shade', cursive;
 $sub-headline-font: 'Bungee', cursive;
@@ -60,12 +61,19 @@ a {
   &:focus {
     outline: none;
   }
+  &:active {
+    transform: scaleX(.96);
+  }
 }
 .social-btn {
   margin-top: 1rem;
   color: black;
   padding: 0.25rem 0.5rem;
   width: 30%;
+  transition: color, 1s;
+  &:hover {
+    color: $gray;
+  }
 }
 footer {
   ul {
@@ -74,7 +82,7 @@ footer {
     li {
       font-size: 0.65rem;
 
-      a { color: #404040; }
+      a { color: $gray; }
     }
   }
 }
