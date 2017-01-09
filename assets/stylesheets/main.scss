@@ -62,7 +62,7 @@ a {
     outline: none;
   }
   &:active {
-    transform: scaleX(.96);
+    transform: scale(.96);
   }
 }
 .social-btn {
@@ -135,12 +135,16 @@ footer {
   }
   #img-ron {
     float: left;
+    margin-bottom: 10rem;
   }
   .headline {
     font-size: 5rem;
   }
   .subheadline {
     margin-bottom: 2rem;
+  }
+  .actions {
+    margin-left: 46%;
   }
   .quote-box {
     margin-bottom: 1rem;

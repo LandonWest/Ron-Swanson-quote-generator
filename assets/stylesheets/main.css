@@ -47,7 +47,7 @@ a {
   #quote-btn:focus {
     outline: none; }
   #quote-btn:active {
-    transform: scaleX(0.96); }
+    transform: scale(0.96); }
 
 .social-btn {
   margin-top: 1rem;
@@ -106,13 +106,17 @@ footer ul {
     margin-top: 4rem; }
 
   #img-ron {
-    float: left; }
+    float: left;
+    margin-bottom: 10rem; }
 
   .headline {
     font-size: 5rem; }
 
   .subheadline {
     margin-bottom: 2rem; }
+
+  .actions {
+    margin-left: 46%; }
 
   .quote-box {
     margin-bottom: 1rem; }
