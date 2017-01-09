@@ -58,13 +58,10 @@ a {
   .social-btn:hover {
     color: #404040; }
 
-footer ul {
-  list-style: none;
-  display: inline; }
-  footer ul li {
-    font-size: 0.65rem; }
-    footer ul li a {
-      color: #404040; }
+footer p {
+  font-size: 0.65rem; }
+  footer p a {
+    color: #404040; }
 
 @media screen and (min-width: 415px) {
   #img-ron {
@@ -123,7 +120,7 @@ footer ul {
 
   footer {
     margin-top: 1.75rem; }
-    footer ul li {
+    footer p {
       font-size: 0.75rem; } }
 
 /*# sourceMappingURL=main.css.map */
