@@ -76,14 +76,10 @@ a {
   }
 }
 footer {
-  ul {
-    list-style: none;
-    display: inline;
-    li {
-      font-size: 0.65rem;
+  p {
+    font-size: 0.65rem;
 
-      a { color: $gray; }
-    }
+    a { color: $gray; }
   }
 }
 
@@ -152,8 +148,6 @@ footer {
   footer {
     margin-top: 1.75rem;
 
-    ul {
-      li { font-size: 0.75rem;}
-    }
+    p { font-size: 0.75rem;}
   }
 }
